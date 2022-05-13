@@ -1,0 +1,2 @@
+option('build_visualization', type : 'boolean', value : true)
+

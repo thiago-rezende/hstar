@@ -1,9 +1,9 @@
 /**
  * Horus A*
  *
- * @file       horus.h
- * @brief      Central include file for the usage of the A* algorithm
- * @maintainer Thiago Rezende <thiago.manoel.rezende@gmail.com>
+ * @file    horus.h
+ * @brief   Central include file for the usage of the A* algorithm
+ * @author  Thiago Rezende (thiago.manoel.rezende@gmail.com)
  */
 
 #ifndef HORUS_H

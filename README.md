@@ -19,9 +19,29 @@ This project was developed as a solution for an assignment in the subject of art
 
 > **Green**: start
 >
-> **Yellow**: path
+> **Orange**: path
 >
-> **Orange**: target
+> **Red**: target
+
+## Visualization
+> Graphical visualization of the [A*][astar-url] in action
+
+<img src=".github/visualization.gif" width="700"/>
+
+> **Green**: start
+>
+> **Orange**: path
+>
+> **Gray**: visited
+>
+> **Red**: target
+
+## Dependencies
+> [A*][astar-url] algorithm
+ - [GLib][glib-url]
+
+> Visualization
+ - [RayLib][raylib-url]
 
 ## Build Instructions
 > Configure
@@ -34,9 +54,14 @@ This project was developed as a solution for an assignment in the subject of art
     ninja -C build
 ```
 
-> Run
+> Run **[simple]**
 ```sh
     ./build/hstar
+```
+
+> Run **[visualization]**
+```sh
+    ./build/visualization
 ```
 
 <!-- Links -->
@@ -44,6 +69,8 @@ This project was developed as a solution for an assignment in the subject of art
 [c-url]: https://en.cppreference.com/w/c
 [meson-url]: https://mesonbuild.com/
 [astar-url]: https://en.wikipedia.org/wiki/A*_search_algorithm
+[glib-url]: https://gitlab.gnome.org/GNOME/glib
+[raylib-url]: https://github.com/raysan5/raylib
 
 <!-- Badges -->
 [license-badge]: https://img.shields.io/badge/license-BSD_3_Clause-blue.svg?style=flat-square

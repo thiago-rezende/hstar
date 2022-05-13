@@ -1,5 +1,5 @@
 project('HStar', 'c',
-  version : '0.1.0',
+  version : '1.0.0',
   license : 'MIT',
   default_options : ['c_std=c11',
                      'warning_level=3'])
@@ -26,3 +26,26 @@ hstar_exe = executable('hstar', hstar_src,
 
 test('hstar', hstar_exe)
 
+# Visualization
+if get_option('build_visualization')
+
+  raylib_dep = dependency('raylib')
+
+  visualization_src = [
+    'src/visualization.c',
+    'src/node.c',
+    'src/astar.c'
+  ]
+
+  visualization_inc = [
+    'include'
+  ]
+
+  visualization_exe = executable('visualization', visualization_src,
+    dependencies : [glib_dep, m_dep, raylib_dep],
+    include_directories : visualization_inc,
+    install : true)
+
+  test('visualization', visualization_exe)
+
+endif

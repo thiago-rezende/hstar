@@ -1,7 +1,7 @@
 /**
- * @file       detection.h
- * @brief      Platorm detection using predefined macros
- * @maintainer Thiago Rezende <thiago.manoel.rezende@gmail.com>
+ * @file    detection.h
+ * @brief   Platorm detection using predefined macros
+ * @author  Thiago Rezende (thiago.manoel.rezende@gmail.com)
  *
  * This header will provide some macros to identify the platform.
  * This can be used for compile time restrictions or for platform specific code

@@ -1,9 +1,9 @@
 /**
  * A* algorithm
  *
- * @file       astar.h
- * @brief      A* algorithm
- * @maintainer Thiago Rezende <thiago.manoel.rezende@gmail.com>
+ * @file    astar.h
+ * @brief   A* algorithm
+ * @author  Thiago Rezende (thiago.manoel.rezende@gmail.com)
  */
 
 #ifndef HORUS_ASTAR_H

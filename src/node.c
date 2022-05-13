@@ -6,12 +6,16 @@ node_t *node_new(f64 x, f64 y)
 {
     node_t *node = (node_t *)malloc(sizeof(node_t));
 
-    node->f = max_f64; /* infinity */
-    node->g = max_f64; /* infinity */
+    node->f = 0.0;
+    node->g = 0.0;
     node->h = 0.0;
 
     node->x = x;
     node->y = y;
+
+    node->obstacle = false;
+
+    node->visited = false;
 
     node->parent = NULL;
 

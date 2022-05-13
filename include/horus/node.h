@@ -1,9 +1,9 @@
 /**
  * Node structure
  *
- * @file       node.h
- * @brief      Node struture used in a graph for the A* algorithm
- * @maintainer Thiago Rezende <thiago.manoel.rezende@gmail.com>
+ * @file    node.h
+ * @brief   Node struture used in a graph for the A* algorithm
+ * @author  Thiago Rezende (thiago.manoel.rezende@gmail.com)
  */
 
 #ifndef HORUS_NODE_H
@@ -11,6 +11,7 @@
 
 #include <math.h>
 #include <stddef.h>
+#include <stdbool.h>
 
 #include <horus/core/types.h>
 
@@ -29,6 +30,12 @@ typedef struct node
   f64 f;
   f64 g;
   f64 h;
+
+  /* Obstacle */
+  bool obstacle;
+
+  /* Visited */
+  bool visited;
 
   /* parent in found path */
   struct node *parent;

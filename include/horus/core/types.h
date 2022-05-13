@@ -1,9 +1,9 @@
 /**
  * Base types naming shorthand
  *
- * @file       types.h
- * @brief      Short type naming as useful memory size macros
- * @maintainer Thiago Rezende <thiago.manoel.rezende@gmail.com>
+ * @file    types.h
+ * @brief   Short type naming as useful memory size macros
+ * @author  Thiago Rezende (thiago.manoel.rezende@gmail.com)
  */
 
 #ifndef HORUS_CORE_TYPES_H
