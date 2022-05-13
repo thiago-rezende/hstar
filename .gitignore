@@ -1,0 +1,9 @@
+## Meson ##
+build
+builddir
+
+## Cache ##
+.cache
+
+## VS Code ##
+.vscode
