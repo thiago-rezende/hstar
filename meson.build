@@ -1,6 +1,6 @@
 project('HStar', 'c',
   version : '1.0.0',
-  license : 'MIT',
+  license : 'BSD-3-Clause',
   default_options : ['c_std=c11',
                      'warning_level=3'])
 
